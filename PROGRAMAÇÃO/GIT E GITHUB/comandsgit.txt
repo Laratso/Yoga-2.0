@@ -1,0 +1,16 @@
+clear = limpa tudo 
+
+git help + o nome do comando = vai dizer o que o comando faz e mais alguns outros parametros que o comando aceita(para sair da tela digita q)
+
+git status = mostra qual é o status atual do nosso repositório.
+
+PRECISAMOS NOS CADASTRAR PARA QUEM ACESSAR SABER QUEM ESCREVER :
+    git config --global user.name " Lara Oliveira""
+    git config --global user.email " meu email do github entre aspas"
+    git list --list = se quisermos verificar se os nossos user names deram certo.
+    
+    git init= inicia um novo repositório na pasta que estou 
+    git add = adiciona arquivos para serem comitados.
+    git add . = adiciona TODOS os arquivos de uma vez só.
+
+    git commit

@@ -1,0 +1,23 @@
+SELETORES NO CSS
+1- Por meio da tag, por exemplo eu queo estilizar meu <p> 
+então eu coloco p { e aqui dentro eu coloco as estilizações;}
+
+2- Por meio do * { nesse caso , o que eu colocar dentro das chaves vai valer para todos os elementos;}
+
+3- ID, o id é como um CPF ou RG  do código, então, por exemplo, se eu tenho vários paragráfos ,
+mas só quero estilizar um, eu tenho que criar um id para ele . <p id="paragráfo-1"> isso é só um exemplo</p> .
+E para estilizar eu coloco #paragráfo-1 { e estilizo;}
+
+4- CLASS, é muito parecido com ID criamos uma class pro elemento e na hora de estilizar colocamos,<p class=" paragrafos"> novamente so exemplos</p>
+ .paragrafos  { e oq queremos; } . Além da diferença do ponto , a class é diferente do id , pois o id é único a class pode se repetir.
+
+ 5-Selação por TAG  e ATRIBUTO, suponhamos que eu tenho 2 links 
+ <a href="https://google.com.br"> Clique aqui </a> 
+ <a href="https://f1.com"> Clique aqui para acessar </a> 
+ Se eu colocar: a{ color: purple;} ( todos os links irão ficar roxos)
+ Então eu escolho um atributo: a[href="https://google.com.br"]{ color: purple;}
+ assim só o link do google vai ficar roxo.
+
+ 6- Se eu quiser deixar vários itens com a mesma estilizacões, é só agrupar e separar por vírgulas.
+ h1, #paragráfo-1, .paragrafos, a [href="https://google.com.br"]{ color: red;}
+ 

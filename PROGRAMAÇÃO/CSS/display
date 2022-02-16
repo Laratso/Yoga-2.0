@@ -1,0 +1,24 @@
+DISPLAY 
+    Os tipos de display são :
+    -Block
+    -Inline
+    -Inline-Block
+
+    -Grid 
+    -Flex
+
+ -BLOCK
+    Vem como padrão : div,section,p,h1,h2,ul,li,article
+        - ocupa 100% do elemento pai
+        -ocupa toda a linha mesmo a div sendo um quadrado
+        -a altura é definida de acordo com o conteúdo
+        -consigo definir width, height e margin
+
+-INLINE 
+    Vem como padrão; a, span, b, i , en 
+        - elementos em linha
+        -ignora margin, altura, e largura
+        - se comporta como palavras(mesmo que não seja um texto, sendo um imagem, exemplo)
+
+-INLINE-BLOCK
+ mistura as caracteristicas do block e inline 

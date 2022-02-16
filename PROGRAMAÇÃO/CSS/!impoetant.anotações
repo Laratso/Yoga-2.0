@@ -1,0 +1,10 @@
+IMPORTANTE
+
+!IMPORTANT 
+
+Sempre vai ser priorizado o estilo inline, em vez do estilo direto 
+no CSS.
+Para reverter isso usamos !important(depois daquilo que queremos priorizar)
+
+ATENÇÃO:  devemos tomar cuidado ao utilizar esse recurso , pq ele vai 
+automaticamente anular as outras funções iguais.

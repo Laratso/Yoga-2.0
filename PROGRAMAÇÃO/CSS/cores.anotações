@@ -1,0 +1,18 @@
+1- Escrever os nomes das cores em inglês.
+
+2- Os dois jeitos que mais usamos, é rgb e hexadecimal
+RGB- as siglas representam as cores primárias(red,green, blue)
+Para montar , exemplo , eu quero um tom totalmente azul: rgb(0,0,255)-> 255 é o máximo de azul que tem.
+E para ir montandoas cores é só ir colocando números e mudando os tons.
+
+HEXADECIMAL
+base dezesseis é : 1 2 3 4 5 6 7 8 9  A B C D E F 
+Para montar as cores nesse padrão é só : 
+Exemplo, quero um azul total de novo, coloco:
+#0000FF- são dois números para definir o padrão decimal , já que o máx seria 99, e no hexadecimal o máx é o FF.
+
+#0000FF- rgb(0,0,255)-> SÃO A MESMA COISA
+
+SITES : color.adobe.com
+coolors.com
+celke.com

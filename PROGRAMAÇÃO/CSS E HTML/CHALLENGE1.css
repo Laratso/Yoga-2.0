@@ -1,0 +1,55 @@
+.container{ border: 10px groove	#7FFFD4;
+margin: 50px 25px;
+padding: 90px 15px;
+background-color: #E0FFFF;
+
+}
+
+button {
+margin:40px;
+width: 75px;
+height: 40px;
+cursor: pointer;
+background-color:#DA70D6;
+color: black ;
+float: left;
+}
+
+button:hover {background-color: #7FFFD4;
+border: 3px solid #008080;
+border-radius: 50px; 
+margin: 60px;
+width: 90px;
+height: 60px; 
+}
+
+input {border: 3px solid #DA70D6;
+}
+
+textarea { border: 3px solid #DA70D6;
+}
+
+html { font-family: 'Nunito', sans-serif;
+font-weight: bold;
+color: #00CED1;
+font-style: italic;
+}
+
+h1{ position: absolute;
+color: #DA70D6;
+font-size: 30px;
+text-align: justify;
+text-shadow:3px 4px 5px indigo;
+top: 10px;
+background-color: white;
+}
+
+
+
+label { line-height: 45px;
+display: block;
+}
+
+
+
+

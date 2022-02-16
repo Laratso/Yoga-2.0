@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIDAS NO CSS</title>
+</head>
+<!-- UNIDADES DE MEDIDAS 
+
+ABSOLUTAS
+    - cm 
+    -in( 1 polegada = 2,5 cm)
+    -px(1 px = 1/98 in)- mais usado( como o h1 mais abaixo)
+
+RELATIVAS (é vantajoso pois quando temos por exenplo que trabalhar com responsividade
+-capacidade do site de se adaptar a diferentes telas- unidades relativas ajudam, como o exemplo das divs mais abaixo)
+    -em( relativo ao elemento mae)
+    -rem(relativo ao elemento root -padrão os textos tenham 32px,pois é o tamanho do h1, mas eu posso mudar isso usando o elemento :root{})
+    - %  , também é relativo ao pai (olhar o exemplo da div, mais abaixo)
+    -vw(viewport width)- viewport é o tamanho da tela , então se a tela diminuir de tamanho ele diminui também- então se eu colocar
+    50vw independente do tamanho da tela, vai ser sempre 50% dela.
+    -vh(viewport height)
+    -->
+<body>
+    <h1> MEDIDAS ABSOLUTAS E RELATIVAS</h1>
+     <div id="div-mãe">
+        div mãe
+        <div id="div-filha">
+            div filha
+        </div>
+     </div>
+<style> 
+h1 { 
+    font-size: 64px;
+    color:royalblue; 
+}
+#div-mãe { font-size: 32px;
+background-color: blue;
+width: 50vw;
+height: 50vh;}
+#div-filha{ font-size: 1.5em;
+background-color: red;
+width: 50%;
+height: 50%;}
+</style>
+</body>
+
+
+</html>
